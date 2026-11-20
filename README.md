@@ -29,3 +29,7 @@ El formulario crea un texto con los datos, que el participante copia y pega en u
 - Reemplazá los enlaces y el correo de ejemplo antes de publicar.
 - Los cupos son datos informativos: sin base de datos no se actualizan automáticamente ni se impiden inscripciones duplicadas.
 - Al solicitar datos personales, publicá una política de privacidad apropiada y pedí solo lo necesario, especialmente si participan menores.
+
+## Configuración sencilla
+
+Editá **`config.js`** para añadir, eliminar o modificar torneos y cambiar los contactos. Consultá **`GUIA-CONFIGURACION.md`** para instrucciones y ejemplos paso a paso.
