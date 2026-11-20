@@ -23,25 +23,12 @@ REGLAS:
 window.SITE_CONFIG = {
   // ── TUS CONTACTOS ───────────────────────────────────────────────
   instagram: 'https://www.instagram.com/TU_USUARIO/',
-  whatsappChannel: 'https://www.whatsapp.com/channel/TU_CANAL',
-  email: 'TU_CORREO@ejemplo.com',
+  whatsappChannel: 'https://whatsapp.com/channel/0029VbDoYJsK0IBcCXnQW62W',
+  email: 'lignaciotachini@gmail.com',
 
   // ── TORNEOS ─────────────────────────────────────────────────────
   // Podés dejar tournaments: [] si no hay torneos activos.
   tournaments: [
-    {
-      id: 'fortnite-1',             // Identificador único
-      game: 'fortnite',            // fortnite | clash | minecraft | valorant | otro
-      title: 'FORTNITE OPEN',      // Título del flyer
-      subtitle: 'Battle Royale · Individual',
-      date: '2026-12-12',          // AAAA-MM-DD
-      time: '19:00',              // Hora local de Uruguay
-      slots: 100,                 // Cantidad de cupos (informativa)
-      prize: 'A anunciar',
-      status: 'abierto',           // abierto | proximo
-      format: 'Solo',
-      edition: 'TEMPORADA 01'
-    },
     {
       id: 'clash-1',
       game: 'clash',
@@ -54,32 +41,4 @@ window.SITE_CONFIG = {
       status: 'abierto',
       format: '1 vs 1',
       edition: 'TEMPORADA 01'
-    },
-    {
-      id: 'minecraft-1',
-      game: 'minecraft',
-      title: 'MINECRAFT PVP',
-      subtitle: 'Combate en la arena',
-      date: '2027-01-09',
-      time: '17:00',
-      slots: 32,
-      prize: 'A anunciar',
-      status: 'proximo',
-      format: 'PvP',
-      edition: 'PRÓXIMAMENTE'
-    },
-    {
-      id: 'valorant-1',
-      game: 'valorant',
-      title: 'VALORANT SHOWDOWN',
-      subtitle: 'Táctica por equipos',
-      date: '2027-01-16',
-      time: '20:00',
-      slots: 16,
-      prize: 'A anunciar',
-      status: 'proximo',
-      format: '5 vs 5',
-      edition: 'PRÓXIMAMENTE'
     }
-  ]
-};
